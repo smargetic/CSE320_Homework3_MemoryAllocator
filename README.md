@@ -5,7 +5,7 @@
 #The memory allocator had the following constraints:
 
 #Free lists segregated by size class, using first-fit policy within each size class.
-#Immediate coalescing of blocks on free with adjacent free blocks.
+#Immediate coalescing of blocks with adjacent free blocks.
 #Boundary tags to support efficient coalescing.
 #Block splitting without creating splinters.
 #Allocated blocks aligned to "double memory row" (16-byte) boundaries.
